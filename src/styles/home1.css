@@ -1,0 +1,13 @@
+h1{
+    font-size: clamp(30px, calc(20px + (36–20) * (100vw - 768px)/(1920–768)), 48px);
+
+    
+
+}
+
+
+div#home1{
+    background-image: url("../images/scene-4.jpeg");
+    height:500px;
+    
+}

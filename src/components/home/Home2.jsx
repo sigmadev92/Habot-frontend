@@ -10,9 +10,9 @@ export default function Home2() {
     "Umm Al Quwain",
   ];
   return (
-    <div className="flex flex-wrap justify-around my-[20px] w-[80%] mx-auto">
+    <div className="flex flex-wrap justify-between my-[20px] w-[80%] mx-auto ">
       <div id="text" className="max-w-[50%]">
-        <h1 className="font-bold text-[20px]">
+        <h1 className="font-bold text-[25px]">
           Ready to dive into <span className="text-blue-950">HABOT?</span>
         </h1>
         <p className="text-[10px] my-4 w-[70%]">
