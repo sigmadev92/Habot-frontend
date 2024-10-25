@@ -1,0 +1,21 @@
+#yt-box{
+    background-image: url("../images/home3-yt.jpg");
+    height: 300px;
+    width: 600px;
+    border-radius: 5px;
+
+    
+}
+
+#yt-tri{
+    width: 0;
+    height:0;
+    border:9px solid transparent;
+    position: absolute;
+    margin-top: 129px;
+
+    margin-left: 6px;
+    border-right: 0;
+    border-left:16px solid white;
+}
+

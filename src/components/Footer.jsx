@@ -3,7 +3,7 @@ import { MdCopyright } from "react-icons/md";
 import "../styles/footer.css";
 export default function Footer() {
   return (
-    <div className="md:h-[232px] bg-[#123557] w-full pt-[43px]">
+    <div className="md:h-[232px] bg-[#123557] w-full pt-[43px] mt-[110px]">
       <div className=" flex flex-wrap justify-between border-t-[1px] border-b-[1px] border-white max-w-[1200px] md:h-[155px] mx-auto">
         <div id="image-links" className="flex flex-wrap text-white gap-x-10">
           <div id="image-and-copyright" className="mt-[45px] ml-[26px]">

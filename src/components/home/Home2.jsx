@@ -10,12 +10,12 @@ export default function Home2() {
     "Umm Al Quwain",
   ];
   return (
-    <div className="flex flex-wrap justify-between my-[20px] w-[80%] mx-auto ">
+    <div className="flex flex-wrap justify-between my-[20px] w-[90%] mx-auto py-[30px]">
       <div id="text" className="max-w-[50%]">
-        <h1 className="font-bold text-[25px]">
+        <h1 className="font-bold text-[37.34px]">
           Ready to dive into <span className="text-blue-950">HABOT?</span>
         </h1>
-        <p className="text-[10px] my-4 w-[70%]">
+        <p className="text-[17.16px] my-4 h-[120px] w-[560px]">
           Signing up with HABOT opens the door to a world of new oppurtunities
           and potential for business growth. Gain access to a vibrant community
           of like-minded indiviuals, unlock valuable resources, and take the
@@ -26,11 +26,11 @@ export default function Home2() {
           Sign up Today! <FaArrowRightLong className="text-white inline ml-3" />
         </button>
       </div>
-      <div className="max-w-[50%] grid grid-cols-2 gap-2">
+      <div className="w-[520px] h-[200px] grid grid-cols-2 gap-2 mt-[20px]">
         {cities.map((city, index) => {
           return (
             <button
-              className="border-yellow-300 border-[2px] p-1 px-5 rounded-md text-[10px]"
+              className="border-yellow-300 border-[1.5px] p-1 px-5 rounded-[5px] text-[10px] cursor-pointer"
               key={index}
             >
               {city}
