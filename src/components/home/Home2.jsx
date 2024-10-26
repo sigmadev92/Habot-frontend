@@ -11,11 +11,11 @@ export default function Home2() {
   ];
   return (
     <div className="flex flex-wrap justify-between my-[20px] w-[90%] mx-auto py-[30px]">
-      <div id="text" className="max-w-[50%]">
+      <div id="text" className="md:w-[50%] w-[80%] ">
         <h1 className="font-bold text-[37.34px]">
           Ready to dive into <span className="text-blue-950">HABOT?</span>
         </h1>
-        <p className="text-[17.16px] my-4 h-[120px] w-[560px]">
+        <p className="text-[17.16px] my-4 md:h-[120px] md:w-[560px]">
           Signing up with HABOT opens the door to a world of new oppurtunities
           and potential for business growth. Gain access to a vibrant community
           of like-minded indiviuals, unlock valuable resources, and take the

@@ -1,13 +1,23 @@
-h1{
-    font-size: clamp(30px, calc(20px + (36–20) * (100vw - 768px)/(1920–768)), 48px);
+#home1-container{
+    position: relative;
+}
 
+#home1-overlay{
+    position:absolute;
+    color:white;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: #072f5799;
+    padding-top: 10vw;
     
+}
+
+#home1-overlay > h1{
+   font-size: clamp(30px,5vw,55px); 
+   font-family: "Poppins";
+   text-align: center;
 
 }
 
 
-div#home1{
-    background-image: url("../images/scene-4.jpeg");
-    height:500px;
-    
-}

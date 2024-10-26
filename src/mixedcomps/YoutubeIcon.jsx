@@ -3,23 +3,30 @@ import React from "react";
 export default function YoutubeIcon() {
   return (
     <div>
-      <div className=" w-[60.29px] h-[60.22px] mx-auto rounded-3xl flex justify-center">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 576 512"
-          className="w-[106.29px] h-[75.22px] mt-[100px]  cursor-pointer "
-        >
-          <path
-            className="hover:fill-black "
-            onClick={() =>
-              window.open("https://www.youtube.com/watch?v=IZLp-TZyDkQ")
-            }
-            fill="#ff0000"
-            d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"
-          />
-        </svg>
-        <div id="yt-tri" className=""></div>
-      </div>
+      <svg
+        width="107"
+        height="76"
+        viewBox="0 0 107 76"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        onClick={() =>
+          window.open("https://www.youtube.com/watch?v=IZLp-TZyDkQ")
+        }
+      >
+        <rect
+          x="19.1374"
+          y="17.5234"
+          width="53.7231"
+          height="40.1194"
+          rx="5"
+          fill="white"
+        />
+        <path
+          className="hover:fill-black cursor-pointer"
+          d="M84.2177 0H22.0758C9.88367 0 0 9.88366 0 22.0758V53.1402C0 65.3323 9.88367 75.216 22.0758 75.216H84.2177C96.4099 75.216 106.294 65.3323 106.294 53.1402V22.0758C106.294 9.88366 96.4099 0 84.2177 0ZM69.288 39.1194L40.2222 52.982C39.4477 53.3514 38.5531 52.7867 38.5531 51.9288V23.337C38.5531 22.4669 39.4712 21.9029 40.2473 22.2962L69.3131 37.0253C70.1773 37.4632 70.1623 38.7025 69.288 39.1194Z"
+          fill="#F61C0D"
+        />
+      </svg>
     </div>
   );
 }

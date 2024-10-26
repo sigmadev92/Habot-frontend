@@ -4,26 +4,28 @@ import habotImg from "../images/habot-logo.jpg";
 export default function Navbar() {
   return (
     <div
-      className=" flex flex-wrap justify-between py-1 px-5 border-2 border-b-black"
+      className=" flex flex-wrap justify-between px-5 border-2 border-b-black min-h-[86px] pt-5"
       id="navbar"
     >
       <div id="main-image" className="">
         <img
           src={habotImg}
           alt="The main logo"
-          className="h-[50px]  cursor-pointer "
+          className="h-[43px] cursor-pointer "
           onClick={() => window.open("https://www.habotconnect.com/")}
         />
       </div>
-      <div
-        id="lists"
-        className="flex-none text-[12px] border-t-2 md:border-none"
-      >
-        <ul className="flex gap-x-3 mt-2 ">
-          <li className="py-2">Find Suppliers</li>
+      <div id="lists" className=" text-[15.25px] ">
+        <ul className="flex gap-x-3  ">
+          <li
+            className="py-2"
+            onClick={() => alert("FUNCTIONALITY NOT MADE YET")}
+          >
+            Find Suppliers
+          </li>
           <li className="py-2">Find Service tags</li>
-          <li className="border-[2px] py-2 px-3 border-green-400 rounded-[10px] font-bold text-green-400 cursor-pointer hover:bg-black">
-            Login/Signup
+          <li className="border-[1px] py-2 px-5 border-[#00732F] rounded-[5px] font-[700] text-[#00732F] cursor-pointer hover:bg-blue-300">
+            Login/Sign Up
           </li>
         </ul>
       </div>

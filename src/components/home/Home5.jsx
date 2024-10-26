@@ -5,7 +5,7 @@ import Home5Box from "../../mixedcomps/Home5Box";
 
 export default function Home5() {
   return (
-    <div className="max-h-[809px] ">
+    <div className="h-[809px] ">
       <h1 className="text-center text-black home5-h1">How it works?</h1>
       <div className="w-[90%] mx-auto  flex justify-center mt-[17px] pt-[24px]">
         <p className="max-w-[839px] text-center home5-p ">
@@ -14,7 +14,7 @@ export default function Home5() {
           business relationships, sharing valuable feedback.
         </p>
       </div>
-      <div className="w-[80%] mx-auto mt-[45px] h-[508px] border-[1.5px] grid grid-cols-3 grid-rows-2">
+      <div className="md:w-[80%] mx-auto mt-[45px] h-[508px]  grid md:grid-cols-3 md:grid-rows-2 grid-cols-2">
         <Home5Box box="1" text="Select Your Role Your Role and Sign Up" />
         <Home5Box box="2" text="Buyers Post Their Requirements" />
         <Home5Box

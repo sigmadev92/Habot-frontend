@@ -1,13 +1,19 @@
 import React, { useState } from "react";
 import { IoCheckmarkSharp } from "react-icons/io5";
 import "../../styles/home3.css";
-import YoutubeIcon from "../../mixedcomps/YoutubeIcon";
+// import YoutubeIcon from "../../mixedcomps/YoutubeIcon";
+import projImg from "../../images/home3-yt.jpg";
 export default function Home3() {
   const [tab1, setTab1] = useState("1");
   return (
-    <div className="flex flex-wrap justify-between py-[100px] px-[72px] bg-[#072f57] my-20 w-[90%] mx-auto rounded-[6px] md:h-[600px]">
-      <div id="yt-box">
-        <YoutubeIcon />
+    <div className="flex flex-wrap md:justify-between md:py-[100px] py-[50px] md:px-[72px] bg-[#072f57] my-20 md:w-[90%] h-[623px] mx-auto rounded-[5px] w-[90%] px-3 justify-center">
+      <div id="yt-box" className=" md:w-[50%] max-h-[350px] rounded-[5px]">
+        <img
+          src={projImg}
+          alt="home3-yt"
+          className="max-h-[350px] rounded-[5px]"
+        />
+        {/* <YoutubeIcon /> */}
       </div>
       <div id="buysell" className="p-2  w-[300px] h-[170px]">
         <div

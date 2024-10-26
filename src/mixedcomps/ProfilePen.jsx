@@ -13,7 +13,7 @@ export default function ProfilePen() {
         <g clipPath="url(#clip0_1_215)">
           <mask
             id="mask0_1_215"
-            style={{ "mask-type": "luminance" }}
+            style={{ maskType: "luminance" }}
             maskUnits="userSpaceOnUse"
             x="0"
             y="0"
